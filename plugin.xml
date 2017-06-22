@@ -21,14 +21,14 @@
 			<intent-filter>
 			    <action android:name="android.intent.action.VIEW" />
 			    <category android:name="android.intent.category.DEFAULT" />
-			    <data android:mimeType="application/*" host="*" android:pathPattern=".*.csv" android:scheme="content" />
+			    <data android:mimeType="application/*" host="*" android:pathPattern="*.csv" android:scheme="content" />
 			</intent-filter>
 
 			<!--  For file browsers -->
 			<intent-filter>
 			    <action android:name="android.intent.action.VIEW"/>
 			    <category android:name="android.intent.category.DEFAULT"/>
-			    <data android:mimeType="application/*" host="*" android:pathPattern=".*.csv" android:scheme="file" />
+			    <data android:mimeType="application/*" host="*" android:pathPattern="*.csv" android:scheme="file" />
 			</intent-filter>
 
 		</config-file>
