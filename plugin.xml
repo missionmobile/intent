@@ -17,7 +17,7 @@
     </engines>	
 
 	<platform name="android">
-		<config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
+		<config-file target="AndroidManifest.xml" parent="/manifest/application">
 			<intent-filter>
 			    <action android:name="android.intent.action.VIEW" />
 			    <category android:name="android.intent.category.DEFAULT" />
