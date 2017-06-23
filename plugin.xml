@@ -17,18 +17,18 @@
     </engines>	
 
 	<platform name="android">
-		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+		<config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
 			<intent-filter>
 			    <action android:name="android.intent.action.VIEW" />
 			    <category android:name="android.intent.category.DEFAULT" />
-			    <data  android:mimeType="text/csv" android:scheme="content" />
+			    <data android:scheme="content" android:mimeType="text/csv" />
 			</intent-filter>
 
 			<!--  For file browsers -->
 			<intent-filter>
 			    <action android:name="android.intent.action.VIEW"/>
-			    <category android:name="android.intent.category.DEFAULT"/>
-			    <data android:mimeType="text/csv" android:scheme="file" />
+			    <category android:name="android.intent.category.DEFAULT" />
+			    <data android:scheme="file" android:mimeType="text/csv" />
 			</intent-filter>
 
 		</config-file>
